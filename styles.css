@@ -33,6 +33,10 @@ h1 {
   margin: 0;
 }
 
+.last {
+  opacity: 65%;
+}
+
 .icons {
   display: flex;
   justify-content: space-between;
