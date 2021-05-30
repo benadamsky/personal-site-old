@@ -28,25 +28,18 @@ body {
 h1 {
   color: #FFFFFF;
   font-size: 96px;
+  line-height: 96px;
   font-family: OpenSans, sans-serif;
   letter-spacing: -2px;
+  white-space: nowrap;
   margin: 0;
   user-select: none;
   -webkit-user-select: none;
 }
 
-.icons {
+#icons {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 20px;
-}
-
-.icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
+  margin-top: 25px;
 }
 
 .icon:not(:first-of-type) {
@@ -72,13 +65,7 @@ i {
     font-size: 48px;
   }
 
-  .icon {
-    height: 30px;
-    width: 30px;
-    border: 3px solid #FFFFFF;
-  }
-
   i {
-    font-size: 16px;
+    font-size: 24px;
   }
 }
